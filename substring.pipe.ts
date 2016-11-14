@@ -6,8 +6,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class SubstringPipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    if (value.length > 80) {
-      return value.substring(0, 85) + ' ...';
+    if (value.length > args) {
+      return value.substring(0, args) + ' ...';
     }
     return value;
   }
