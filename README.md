@@ -13,7 +13,7 @@ Keep in mind that title, status, priority...  are keys from my object, you will 
 
 Usage:
 
-`<div *ngFor="let list of lists | filter:'some words' "></div>
+`<div *ngFor="let list of lists | filter:'some words' ">{{list.something}}</div>
 `
 ## Angular2 Markdown to Html Pipe
 
