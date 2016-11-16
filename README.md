@@ -5,12 +5,16 @@
 
 Use as is 
 
-## Angular2 Filter Pipe 
+## Angular2 Filter Pipe || Search Pipe
 
-Modify the object keys to suit your application.
-Filters strings and numbers. 
-Filter by one or more words inside an object.
+With this pipe you can search for values inside an array of objects, and the object / objects that matches the search criteria will be returned. 
 
+Keep in mind that title, status, priority...  are keys from my object, you will need  to edit and adapt them to match your object keys.
+
+Usage:
+
+`<div *ngFor="let list of lists | filter:'This is' "></div>
+`
 ## Angular2 Markdown to Html Pipe
 
 If you are using Angular CLI beta-18 or Angular 2.1.0 
