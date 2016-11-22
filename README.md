@@ -1,5 +1,6 @@
 # Angular2 Pipe Collection
 
+If you find this information usefull don't forget to Star or Fork, thank you.
 
 ## Angular2 Capitalize Pipe 
 
